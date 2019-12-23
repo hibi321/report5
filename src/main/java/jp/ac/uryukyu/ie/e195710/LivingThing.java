@@ -1,6 +1,16 @@
 package jp.ac.uryukyu.ie.e195710;
 
+/**
+ * 勇者もしくはモンスターが生きているときにできること、入手できる情報。
+ */
 public class LivingThing {
+
+    /**
+     * @param name 勇者とモンスターの名前
+     * @param hitPoint 体力
+     * @param attack 攻撃力
+     * @param dead 死んでいるかどうかの判定
+     */
     String name;
     int hitPoint;
     int attack;
